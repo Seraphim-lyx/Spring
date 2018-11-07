@@ -1,0 +1,352 @@
+2018-11-06 16:21:33,162 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 16:21:33,170 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 16:21:33,171 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 16:21:33,171 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 16:21:33,171 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 16:21:33,171 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 16:21:33,204 INFO  Application:50 -Starting Application on searphimlyx-GL552VW with PID 10331 (/home/searphimlyx/Downloads/SpringBoot/target/classes started by searphimlyx in /home/searphimlyx/Downloads/SpringBoot)
+2018-11-06 16:21:33,204 DEBUG Application:53 -Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-06 16:21:33,205 INFO  Application:675 -No active profile set, falling back to default profiles: default
+2018-11-06 16:21:34,558 INFO  Http11NioProtocol:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-06 16:21:34,567 INFO  StandardService:173 -Starting service [Tomcat]
+2018-11-06 16:21:34,567 INFO  StandardEngine:173 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-06 16:21:34,635 INFO  AprLifecycleListener:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-11-06 16:21:34,880 INFO  TldScanner:173 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-11-06 16:21:34,885 INFO  [/]:173 -Initializing Spring embedded WebApplicationContext
+2018-11-06 16:21:35,023 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 16:21:35,023 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 16:21:35,025 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 16:21:35,026 DEBUG ConfigurationImpl:148 -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-11-06 16:21:35,026 DEBUG ConfigurationImpl:180 -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-11-06 16:21:35,027 DEBUG ConfigurationImpl:194 -Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-11-06 16:21:35,028 DEBUG ValidationXmlParser:120 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-11-06 16:21:35,029 DEBUG ResourceLoaderHelper:53 -Trying to load META-INF/validation.xml via user class loader
+2018-11-06 16:21:35,029 DEBUG ResourceLoaderHelper:60 -Trying to load META-INF/validation.xml via TCCL
+2018-11-06 16:21:35,029 DEBUG ResourceLoaderHelper:66 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-11-06 16:21:35,029 DEBUG ValidationXmlParser:127 -No META-INF/validation.xml found. Using annotation based configuration only.
+2018-11-06 16:21:35,033 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 16:21:35,034 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 16:21:35,034 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 16:21:35,034 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 16:21:35,034 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 16:21:35,535 INFO  Http11NioProtocol:173 -Starting ProtocolHandler ["http-nio-8080"]
+2018-11-06 16:21:35,542 INFO  NioSelectorPool:173 -Using a shared selector for servlet write/read
+2018-11-06 16:21:35,572 INFO  Application:59 -Started Application in 2.623 seconds (JVM running for 3.221)
+2018-11-06 16:21:35,574 ERROR Application:15 -log4j2!
+2018-11-06 16:23:22,242 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 16:23:22,250 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 16:23:22,251 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 16:23:22,251 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 16:23:22,251 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 16:23:22,252 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 16:23:22,297 INFO  Application:50 -Starting Application on searphimlyx-GL552VW with PID 10476 (/home/searphimlyx/Downloads/SpringBoot/target/classes started by searphimlyx in /home/searphimlyx/Downloads/SpringBoot)
+2018-11-06 16:23:22,298 DEBUG Application:53 -Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-06 16:23:22,299 INFO  Application:675 -No active profile set, falling back to default profiles: default
+2018-11-06 16:23:23,712 INFO  Http11NioProtocol:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-06 16:23:23,720 INFO  StandardService:173 -Starting service [Tomcat]
+2018-11-06 16:23:23,721 INFO  StandardEngine:173 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-06 16:23:23,820 INFO  AprLifecycleListener:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-11-06 16:23:24,048 INFO  TldScanner:173 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-11-06 16:23:24,053 INFO  [/]:173 -Initializing Spring embedded WebApplicationContext
+2018-11-06 16:23:24,194 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 16:23:24,195 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 16:23:24,196 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 16:23:24,197 DEBUG ConfigurationImpl:148 -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-11-06 16:23:24,197 DEBUG ConfigurationImpl:180 -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-11-06 16:23:24,198 DEBUG ConfigurationImpl:194 -Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-11-06 16:23:24,199 DEBUG ValidationXmlParser:120 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-11-06 16:23:24,199 DEBUG ResourceLoaderHelper:53 -Trying to load META-INF/validation.xml via user class loader
+2018-11-06 16:23:24,199 DEBUG ResourceLoaderHelper:60 -Trying to load META-INF/validation.xml via TCCL
+2018-11-06 16:23:24,199 DEBUG ResourceLoaderHelper:66 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-11-06 16:23:24,199 DEBUG ValidationXmlParser:127 -No META-INF/validation.xml found. Using annotation based configuration only.
+2018-11-06 16:23:24,204 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 16:23:24,204 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 16:23:24,204 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 16:23:24,204 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 16:23:24,205 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 16:23:24,669 INFO  Http11NioProtocol:173 -Starting ProtocolHandler ["http-nio-8080"]
+2018-11-06 16:23:24,676 INFO  NioSelectorPool:173 -Using a shared selector for servlet write/read
+2018-11-06 16:23:24,698 INFO  Application:59 -Started Application in 2.648 seconds (JVM running for 3.194)
+2018-11-06 16:23:24,699 ERROR Application:17 -log4j2!
+2018-11-06 16:27:08,401 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 16:27:08,409 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 16:27:08,410 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 16:27:08,410 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 16:27:08,411 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 16:27:08,411 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 16:27:08,435 INFO  Application:50 -Starting Application on searphimlyx-GL552VW with PID 10649 (/home/searphimlyx/Downloads/SpringBoot/target/classes started by searphimlyx in /home/searphimlyx/Downloads/SpringBoot)
+2018-11-06 16:27:08,435 DEBUG Application:53 -Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-06 16:27:08,436 INFO  Application:675 -No active profile set, falling back to default profiles: default
+2018-11-06 16:27:09,811 INFO  Http11NioProtocol:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-06 16:27:09,818 INFO  StandardService:173 -Starting service [Tomcat]
+2018-11-06 16:27:09,818 INFO  StandardEngine:173 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-06 16:27:09,885 INFO  AprLifecycleListener:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-11-06 16:27:10,114 INFO  TldScanner:173 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-11-06 16:27:10,121 INFO  [/]:173 -Initializing Spring embedded WebApplicationContext
+2018-11-06 16:27:10,296 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 16:27:10,297 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 16:27:10,299 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 16:27:10,301 DEBUG ConfigurationImpl:148 -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-11-06 16:27:10,302 DEBUG ConfigurationImpl:180 -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-11-06 16:27:10,303 DEBUG ConfigurationImpl:194 -Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-11-06 16:27:10,304 DEBUG ValidationXmlParser:120 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-11-06 16:27:10,305 DEBUG ResourceLoaderHelper:53 -Trying to load META-INF/validation.xml via user class loader
+2018-11-06 16:27:10,305 DEBUG ResourceLoaderHelper:60 -Trying to load META-INF/validation.xml via TCCL
+2018-11-06 16:27:10,305 DEBUG ResourceLoaderHelper:66 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-11-06 16:27:10,306 DEBUG ValidationXmlParser:127 -No META-INF/validation.xml found. Using annotation based configuration only.
+2018-11-06 16:27:10,312 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 16:27:10,312 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 16:27:10,312 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 16:27:10,313 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 16:27:10,313 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 16:27:10,871 INFO  Http11NioProtocol:173 -Starting ProtocolHandler ["http-nio-8080"]
+2018-11-06 16:27:10,878 INFO  NioSelectorPool:173 -Using a shared selector for servlet write/read
+2018-11-06 16:27:10,900 INFO  Application:59 -Started Application in 2.723 seconds (JVM running for 3.378)
+2018-11-06 16:27:10,901 ERROR Application:17 -log4j2!
+2018-11-06 16:28:04,319 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 16:28:04,328 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 16:28:04,329 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 16:28:04,329 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 16:28:04,330 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 16:28:04,330 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 16:28:04,353 INFO  Application:50 -Starting Application on searphimlyx-GL552VW with PID 10732 (/home/searphimlyx/Downloads/SpringBoot/target/classes started by searphimlyx in /home/searphimlyx/Downloads/SpringBoot)
+2018-11-06 16:28:04,353 DEBUG Application:53 -Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-06 16:28:04,354 INFO  Application:675 -No active profile set, falling back to default profiles: default
+2018-11-06 16:28:05,807 INFO  Http11NioProtocol:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-06 16:28:05,814 INFO  StandardService:173 -Starting service [Tomcat]
+2018-11-06 16:28:05,815 INFO  StandardEngine:173 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-06 16:28:05,826 INFO  AprLifecycleListener:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-11-06 16:28:06,138 INFO  TldScanner:173 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-11-06 16:28:06,143 INFO  [/]:173 -Initializing Spring embedded WebApplicationContext
+2018-11-06 16:28:06,291 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 16:28:06,291 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 16:28:06,292 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 16:28:06,293 DEBUG ConfigurationImpl:148 -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-11-06 16:28:06,294 DEBUG ConfigurationImpl:180 -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-11-06 16:28:06,294 DEBUG ConfigurationImpl:194 -Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-11-06 16:28:06,295 DEBUG ValidationXmlParser:120 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-11-06 16:28:06,296 DEBUG ResourceLoaderHelper:53 -Trying to load META-INF/validation.xml via user class loader
+2018-11-06 16:28:06,296 DEBUG ResourceLoaderHelper:60 -Trying to load META-INF/validation.xml via TCCL
+2018-11-06 16:28:06,296 DEBUG ResourceLoaderHelper:66 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-11-06 16:28:06,297 DEBUG ValidationXmlParser:127 -No META-INF/validation.xml found. Using annotation based configuration only.
+2018-11-06 16:28:06,300 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 16:28:06,301 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 16:28:06,301 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 16:28:06,301 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 16:28:06,302 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 16:28:06,786 INFO  Http11NioProtocol:173 -Starting ProtocolHandler ["http-nio-8080"]
+2018-11-06 16:28:06,793 INFO  NioSelectorPool:173 -Using a shared selector for servlet write/read
+2018-11-06 16:28:06,816 INFO  Application:59 -Started Application in 2.715 seconds (JVM running for 3.317)
+2018-11-06 16:28:06,818 ERROR Application:17 -log4j2!
+2018-11-06 16:28:21,561 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 16:28:21,572 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 16:28:21,573 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 16:28:21,573 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 16:28:21,573 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 16:28:21,574 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 16:28:21,578 INFO  Application:50 -Starting Application on searphimlyx-GL552VW with PID 10792 (/home/searphimlyx/Downloads/SpringBoot/target/classes started by searphimlyx in /home/searphimlyx/Downloads/SpringBoot)
+2018-11-06 16:28:21,578 DEBUG Application:53 -Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-06 16:28:21,579 INFO  Application:675 -No active profile set, falling back to default profiles: default
+2018-11-06 16:28:23,036 INFO  Http11NioProtocol:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-06 16:28:23,043 INFO  StandardService:173 -Starting service [Tomcat]
+2018-11-06 16:28:23,043 INFO  StandardEngine:173 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-06 16:28:23,124 INFO  AprLifecycleListener:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-11-06 16:28:23,355 INFO  TldScanner:173 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-11-06 16:28:23,361 INFO  [/]:173 -Initializing Spring embedded WebApplicationContext
+2018-11-06 16:28:23,501 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 16:28:23,501 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 16:28:23,503 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 16:28:23,504 DEBUG ConfigurationImpl:148 -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-11-06 16:28:23,505 DEBUG ConfigurationImpl:180 -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-11-06 16:28:23,505 DEBUG ConfigurationImpl:194 -Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-11-06 16:28:23,506 DEBUG ValidationXmlParser:120 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-11-06 16:28:23,506 DEBUG ResourceLoaderHelper:53 -Trying to load META-INF/validation.xml via user class loader
+2018-11-06 16:28:23,507 DEBUG ResourceLoaderHelper:60 -Trying to load META-INF/validation.xml via TCCL
+2018-11-06 16:28:23,507 DEBUG ResourceLoaderHelper:66 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-11-06 16:28:23,507 DEBUG ValidationXmlParser:127 -No META-INF/validation.xml found. Using annotation based configuration only.
+2018-11-06 16:28:23,512 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 16:28:23,513 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 16:28:23,513 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 16:28:23,513 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 16:28:23,513 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 16:28:24,010 INFO  Http11NioProtocol:173 -Starting ProtocolHandler ["http-nio-8080"]
+2018-11-06 16:28:24,016 INFO  NioSelectorPool:173 -Using a shared selector for servlet write/read
+2018-11-06 16:28:24,044 INFO  Application:59 -Started Application in 2.718 seconds (JVM running for 3.333)
+2018-11-06 16:28:24,046 ERROR Application:17 -log4j2!
+2018-11-06 16:29:42,677 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 16:29:42,686 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 16:29:42,686 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 16:29:42,687 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 16:29:42,687 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 16:29:42,687 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 16:29:42,697 INFO  Application:50 -Starting Application on searphimlyx-GL552VW with PID 10870 (/home/searphimlyx/Downloads/SpringBoot/target/classes started by searphimlyx in /home/searphimlyx/Downloads/SpringBoot)
+2018-11-06 16:29:42,697 DEBUG Application:53 -Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-06 16:29:42,698 INFO  Application:675 -No active profile set, falling back to default profiles: default
+2018-11-06 16:29:44,068 INFO  Http11NioProtocol:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-06 16:29:44,077 INFO  StandardService:173 -Starting service [Tomcat]
+2018-11-06 16:29:44,078 INFO  StandardEngine:173 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-06 16:29:44,147 INFO  AprLifecycleListener:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-11-06 16:29:44,347 INFO  TldScanner:173 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-11-06 16:29:44,352 INFO  [/]:173 -Initializing Spring embedded WebApplicationContext
+2018-11-06 16:29:44,478 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 16:29:44,478 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 16:29:44,480 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 16:29:44,481 DEBUG ConfigurationImpl:148 -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-11-06 16:29:44,481 DEBUG ConfigurationImpl:180 -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-11-06 16:29:44,482 DEBUG ConfigurationImpl:194 -Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-11-06 16:29:44,482 DEBUG ValidationXmlParser:120 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-11-06 16:29:44,483 DEBUG ResourceLoaderHelper:53 -Trying to load META-INF/validation.xml via user class loader
+2018-11-06 16:29:44,483 DEBUG ResourceLoaderHelper:60 -Trying to load META-INF/validation.xml via TCCL
+2018-11-06 16:29:44,483 DEBUG ResourceLoaderHelper:66 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-11-06 16:29:44,483 DEBUG ValidationXmlParser:127 -No META-INF/validation.xml found. Using annotation based configuration only.
+2018-11-06 16:29:44,488 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 16:29:44,488 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 16:29:44,488 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 16:29:44,489 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 16:29:44,489 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 16:29:44,961 INFO  Http11NioProtocol:173 -Starting ProtocolHandler ["http-nio-8080"]
+2018-11-06 16:29:44,970 INFO  NioSelectorPool:173 -Using a shared selector for servlet write/read
+2018-11-06 16:29:44,994 INFO  Application:59 -Started Application in 2.522 seconds (JVM running for 3.11)
+2018-11-06 16:29:44,997 ERROR Application:17 -log4j2!
+2018-11-06 17:28:57,353 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 17:28:57,429 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 17:28:57,430 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 17:28:57,430 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 17:28:57,431 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 17:28:57,431 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 17:28:57,433 INFO  Application:50 -Starting Application on searphimlyx-GL552VW with PID 4924 (/home/searphimlyx/Downloads/SpringBoot/target/classes started by searphimlyx in /home/searphimlyx/Downloads/SpringBoot)
+2018-11-06 17:28:57,433 DEBUG Application:53 -Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-06 17:28:57,434 INFO  Application:675 -No active profile set, falling back to default profiles: default
+2018-11-06 17:28:59,946 INFO  Http11NioProtocol:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-06 17:28:59,955 INFO  StandardService:173 -Starting service [Tomcat]
+2018-11-06 17:28:59,956 INFO  StandardEngine:173 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-06 17:29:00,041 INFO  AprLifecycleListener:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-11-06 17:29:00,376 INFO  TldScanner:173 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-11-06 17:29:00,381 INFO  [/]:173 -Initializing Spring embedded WebApplicationContext
+2018-11-06 17:29:00,550 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 17:29:00,550 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 17:29:00,552 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 17:29:00,553 DEBUG ConfigurationImpl:148 -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-11-06 17:29:00,553 DEBUG ConfigurationImpl:180 -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-11-06 17:29:00,554 DEBUG ConfigurationImpl:194 -Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-11-06 17:29:00,555 DEBUG ValidationXmlParser:120 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-11-06 17:29:00,555 DEBUG ResourceLoaderHelper:53 -Trying to load META-INF/validation.xml via user class loader
+2018-11-06 17:29:00,556 DEBUG ResourceLoaderHelper:60 -Trying to load META-INF/validation.xml via TCCL
+2018-11-06 17:29:00,556 DEBUG ResourceLoaderHelper:66 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-11-06 17:29:00,556 DEBUG ValidationXmlParser:127 -No META-INF/validation.xml found. Using annotation based configuration only.
+2018-11-06 17:29:00,560 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 17:29:00,560 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 17:29:00,560 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 17:29:00,560 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 17:29:00,561 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 17:29:01,033 INFO  Http11NioProtocol:173 -Starting ProtocolHandler ["http-nio-8080"]
+2018-11-06 17:29:01,090 INFO  NioSelectorPool:173 -Using a shared selector for servlet write/read
+2018-11-06 17:29:01,133 INFO  Application:59 -Started Application in 4.47 seconds (JVM running for 5.955)
+2018-11-06 17:29:01,135 ERROR Application:17 -log4j2!
+2018-11-06 17:56:05,623 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 17:56:05,631 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 17:56:05,632 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 17:56:05,632 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 17:56:05,632 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 17:56:05,632 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 17:56:05,667 INFO  Application:50 -Starting Application on searphimlyx-GL552VW with PID 5530 (/home/searphimlyx/Downloads/SpringBoot/target/classes started by searphimlyx in /home/searphimlyx/Downloads/SpringBoot)
+2018-11-06 17:56:05,668 DEBUG Application:53 -Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-06 17:56:05,668 INFO  Application:675 -No active profile set, falling back to default profiles: default
+2018-11-06 17:56:06,892 INFO  Http11NioProtocol:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-06 17:56:06,900 INFO  StandardService:173 -Starting service [Tomcat]
+2018-11-06 17:56:06,900 INFO  StandardEngine:173 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-06 17:56:06,975 INFO  AprLifecycleListener:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-11-06 17:56:07,170 INFO  TldScanner:173 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-11-06 17:56:07,174 INFO  [/]:173 -Initializing Spring embedded WebApplicationContext
+2018-11-06 17:56:07,301 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 17:56:07,301 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 17:56:07,303 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 17:56:07,304 DEBUG ConfigurationImpl:148 -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-11-06 17:56:07,304 DEBUG ConfigurationImpl:180 -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-11-06 17:56:07,305 DEBUG ConfigurationImpl:194 -Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-11-06 17:56:07,306 DEBUG ValidationXmlParser:120 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-11-06 17:56:07,306 DEBUG ResourceLoaderHelper:53 -Trying to load META-INF/validation.xml via user class loader
+2018-11-06 17:56:07,307 DEBUG ResourceLoaderHelper:60 -Trying to load META-INF/validation.xml via TCCL
+2018-11-06 17:56:07,307 DEBUG ResourceLoaderHelper:66 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-11-06 17:56:07,307 DEBUG ValidationXmlParser:127 -No META-INF/validation.xml found. Using annotation based configuration only.
+2018-11-06 17:56:07,312 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 17:56:07,312 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 17:56:07,313 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 17:56:07,313 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 17:56:07,313 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 17:56:07,855 INFO  Http11NioProtocol:173 -Starting ProtocolHandler ["http-nio-8080"]
+2018-11-06 17:56:07,861 INFO  NioSelectorPool:173 -Using a shared selector for servlet write/read
+2018-11-06 17:56:07,885 INFO  Application:59 -Started Application in 2.473 seconds (JVM running for 3.085)
+2018-11-06 17:56:07,887 ERROR Application:18 -log4j2!
+2018-11-06 18:00:23,722 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 18:00:23,732 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 18:00:23,733 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 18:00:23,733 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 18:00:23,733 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 18:00:23,733 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 18:00:23,782 INFO  Application:50 -Starting Application on searphimlyx-GL552VW with PID 5759 (/home/searphimlyx/Downloads/SpringBoot/target/classes started by searphimlyx in /home/searphimlyx/Downloads/SpringBoot)
+2018-11-06 18:00:23,782 DEBUG Application:53 -Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-06 18:00:23,783 INFO  Application:675 -No active profile set, falling back to default profiles: default
+2018-11-06 18:00:25,290 INFO  Http11NioProtocol:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-06 18:00:25,297 INFO  StandardService:173 -Starting service [Tomcat]
+2018-11-06 18:00:25,298 INFO  StandardEngine:173 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-06 18:00:25,369 INFO  AprLifecycleListener:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-11-06 18:00:25,617 INFO  TldScanner:173 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-11-06 18:00:25,622 INFO  [/]:173 -Initializing Spring embedded WebApplicationContext
+2018-11-06 18:00:25,766 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 18:00:25,767 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 18:00:25,769 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 18:00:25,770 DEBUG ConfigurationImpl:148 -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-11-06 18:00:25,770 DEBUG ConfigurationImpl:180 -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-11-06 18:00:25,771 DEBUG ConfigurationImpl:194 -Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-11-06 18:00:25,772 DEBUG ValidationXmlParser:120 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-11-06 18:00:25,773 DEBUG ResourceLoaderHelper:53 -Trying to load META-INF/validation.xml via user class loader
+2018-11-06 18:00:25,773 DEBUG ResourceLoaderHelper:60 -Trying to load META-INF/validation.xml via TCCL
+2018-11-06 18:00:25,773 DEBUG ResourceLoaderHelper:66 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-11-06 18:00:25,774 DEBUG ValidationXmlParser:127 -No META-INF/validation.xml found. Using annotation based configuration only.
+2018-11-06 18:00:25,778 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 18:00:25,779 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 18:00:25,779 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 18:00:25,779 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 18:00:25,779 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 18:00:26,237 INFO  Http11NioProtocol:173 -Starting ProtocolHandler ["http-nio-8080"]
+2018-11-06 18:00:26,244 INFO  NioSelectorPool:173 -Using a shared selector for servlet write/read
+2018-11-06 18:00:26,269 INFO  Application:59 -Started Application in 2.758 seconds (JVM running for 3.344)
+2018-11-06 18:00:26,271 ERROR Application:18 -log4j2!
+2018-11-06 18:00:34,465 INFO  [/]:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-06 18:01:10,835 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 18:01:10,844 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 18:01:10,844 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 18:01:10,844 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 18:01:10,844 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 18:01:10,845 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 18:01:10,858 INFO  Application:50 -Starting Application on searphimlyx-GL552VW with PID 5876 (/home/searphimlyx/Downloads/SpringBoot/target/classes started by searphimlyx in /home/searphimlyx/Downloads/SpringBoot)
+2018-11-06 18:01:10,859 DEBUG Application:53 -Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-06 18:01:10,860 INFO  Application:675 -No active profile set, falling back to default profiles: default
+2018-11-06 18:01:12,154 INFO  Http11NioProtocol:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-06 18:01:12,163 INFO  StandardService:173 -Starting service [Tomcat]
+2018-11-06 18:01:12,164 INFO  StandardEngine:173 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-06 18:01:12,245 INFO  AprLifecycleListener:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-11-06 18:01:12,457 INFO  TldScanner:173 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-11-06 18:01:12,463 INFO  [/]:173 -Initializing Spring embedded WebApplicationContext
+2018-11-06 18:01:12,618 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 18:01:12,618 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2018-11-06 18:01:12,621 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-11-06 18:01:12,622 DEBUG ConfigurationImpl:148 -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-11-06 18:01:12,623 DEBUG ConfigurationImpl:180 -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-11-06 18:01:12,624 DEBUG ConfigurationImpl:194 -Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-11-06 18:01:12,625 DEBUG ValidationXmlParser:120 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-11-06 18:01:12,625 DEBUG ResourceLoaderHelper:53 -Trying to load META-INF/validation.xml via user class loader
+2018-11-06 18:01:12,626 DEBUG ResourceLoaderHelper:60 -Trying to load META-INF/validation.xml via TCCL
+2018-11-06 18:01:12,626 DEBUG ResourceLoaderHelper:66 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-11-06 18:01:12,627 DEBUG ValidationXmlParser:127 -No META-INF/validation.xml found. Using annotation based configuration only.
+2018-11-06 18:01:12,632 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-11-06 18:01:12,632 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-11-06 18:01:12,633 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-11-06 18:01:12,633 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-11-06 18:01:12,633 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-11-06 18:01:13,096 INFO  Http11NioProtocol:173 -Starting ProtocolHandler ["http-nio-8080"]
+2018-11-06 18:01:13,102 INFO  NioSelectorPool:173 -Using a shared selector for servlet write/read
+2018-11-06 18:01:13,128 INFO  Application:59 -Started Application in 2.498 seconds (JVM running for 3.054)
+2018-11-06 18:01:13,130 ERROR Application:18 -log4j2!
+2018-11-06 18:01:22,439 INFO  [/]:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'

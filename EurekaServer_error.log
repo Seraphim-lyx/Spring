@@ -1,0 +1,19 @@
+2018-11-06 16:27:10,901 ERROR Application:17 -log4j2!
+2018-11-06 16:28:06,818 ERROR Application:17 -log4j2!
+2018-11-06 16:28:24,046 ERROR Application:17 -log4j2!
+2018-11-06 16:29:42,697 INFO  Application:50 -Starting Application on searphimlyx-GL552VW with PID 10870 (/home/searphimlyx/Downloads/SpringBoot/target/classes started by searphimlyx in /home/searphimlyx/Downloads/SpringBoot)
+2018-11-06 16:29:42,698 INFO  Application:675 -No active profile set, falling back to default profiles: default
+2018-11-06 16:29:44,068 INFO  Http11NioProtocol:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-06 16:29:44,077 INFO  StandardService:173 -Starting service [Tomcat]
+2018-11-06 16:29:44,078 INFO  StandardEngine:173 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-06 16:29:44,147 INFO  AprLifecycleListener:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-11-06 16:29:44,347 INFO  TldScanner:173 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-11-06 16:29:44,352 INFO  [/]:173 -Initializing Spring embedded WebApplicationContext
+2018-11-06 16:29:44,961 INFO  Http11NioProtocol:173 -Starting ProtocolHandler ["http-nio-8080"]
+2018-11-06 16:29:44,970 INFO  NioSelectorPool:173 -Using a shared selector for servlet write/read
+2018-11-06 16:29:44,994 INFO  Application:59 -Started Application in 2.522 seconds (JVM running for 3.11)
+2018-11-06 16:29:44,997 ERROR Application:17 -log4j2!
+2018-11-06 17:29:01,135 ERROR Application:17 -log4j2!
+2018-11-06 17:56:07,887 ERROR Application:18 -log4j2!
+2018-11-06 18:00:26,271 ERROR Application:18 -log4j2!
+2018-11-06 18:01:13,130 ERROR Application:18 -log4j2!

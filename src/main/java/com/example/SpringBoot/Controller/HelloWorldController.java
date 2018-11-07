@@ -5,6 +5,8 @@ package com.example.SpringBoot.Controller;
 
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -24,6 +26,9 @@ public class HelloWorldController {
 	@Value("#{'${test}'.bytes}")
 	private String test;
 	
+	private Logger logger = LoggerFactory.getLogger(this.getClass());
+	
+	
 	/**
 	 * @param ioc the ioc to set
 	 */
@@ -32,7 +37,7 @@ public class HelloWorldController {
 	public String index(Map<String, Object> model) {
 		model.put("message", "index page");
 		ioc.test();
-		System.out.println(test);
+		System.out.println(logger);
 		return "index";
 	}
 }
