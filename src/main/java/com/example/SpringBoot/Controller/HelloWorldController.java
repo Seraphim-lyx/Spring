@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloWorldController {
 	@Autowired
-	@Qualifier("IOC2")
+	@Qualifier("IOC")
 	private IOCInterface ioc;
 	
 	@Value("#{'${test}'.bytes}")
@@ -36,6 +36,8 @@ public class HelloWorldController {
 	@RequestMapping("/hello")
 	public String index(Map<String, Object> model) {
 		model.put("message", "index page");
+		System.out.println(Thread.currentThread().getName());
+		ioc.test();
 		ioc.test();
 		System.out.println(logger);
 		return "index";

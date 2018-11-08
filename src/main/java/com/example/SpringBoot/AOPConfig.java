@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
  * @author searphimlyx
  *
  */
-@Aspect
+//@Aspect
 @Configuration
 public class AOPConfig {
 	
