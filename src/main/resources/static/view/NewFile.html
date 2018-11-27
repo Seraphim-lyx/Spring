@@ -3,8 +3,156 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<script src="/js/vue.min.js"></script>
+<script src="/js/vue-router.js"></script>
+<!-- <script src="/js/vue-resource.min.js"></script> -->
+<script src="/js/axios.min.js"></script>
+<style>
+.active {
+	background: green;
+}
+
+.nonactive {
+	background: red;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+</style>
 </head>
 <body>
- new file
+	${map}
+	<div id="vue_det">
+		<h1 v-bind:class="classObject()">site : {{site}}</h1>
+		<h1>url : {{url}}</h1>m
+		<h1 v-bind:align="align">{{url|reverse}}</h1>
+		<h1 v-if="boo">{{details()}}</h1>
+
+		<button v-on:click="doSomething"></button>
+
+		<!-- bidirectional binding -->
+		<input type="text" v-model="site" />
+
+		<!-- 		iterations -->
+		<ul>
+			<li v-for="object in array">{{object.age|filter}}</li>
+		</ul>
+
+		<p>
+			<router-link v-bind:to="foo">foo</router-link>
+			<router-link v-bind:to="bar">bar</router-link>
+
+		</p>
+
+		<!-- router exit -->
+		<transition name="fade"> <router-view></router-view> </transition>
+		
+
+	</div>
+	<form action = "http://localhost:8080/response" method="get" >
+		<input type= "text" name="a"/>
+		<input type="submit" value = "submit"/>
+	</form>
 </body>
+<script type="text/javascript">
+	const Foo = { template: 
+		'<div><h1>{{$route.params.id}}</h1><router-link to = "/foo/1/profile">profile</router-link><router-view></router-view></div>'
+		}
+	const Bar = { 
+			props:['id'],
+			template: '<transition name="fade"><div>{{id}}</div></transition>' }
+	const profile = { template: '<div>child</div>'}
+	//create router mapping	
+	const routes = [
+		  { path: '/foo/:id', component: Foo,
+			 children:[
+				 {
+					 path:'profile',
+					 component:profile,
+// 					 components: {
+// 						   helper: profile,
+// 					 }
+				 },
+			 ] 
+		  },
+		  { path: '/bar/:id', component: Bar, props:true },
+		]
+	
+	//create router object
+	const router = new VueRouter({
+		  routes: routes 
+		})
+	Vue.prototype.axios = axios;
+	var vm = new Vue({
+
+		el : '#vue_det',
+		router: router,
+		data : {
+			foo : "/foo/1",
+			bar : "/bar/2",
+			site : "site",
+			target : "blank",
+			url : "http://www.runoob.com",
+			alexa : "10000",
+			align : "right",
+			boo : false,
+			array: ["a1","a2","a3"],
+			isActive:true,
+		},
+		filters :{
+			filter : function(age ){
+				return age+100;
+			},
+			reverse : function(str){
+				return str.split('.').reverse().join('.');
+			},
+		},
+		
+		methods : {
+			details : function() {
+				
+				return this.site + " - site test";
+			},
+			//use {params:{json}} to put payload on url for GET request
+			//this.axios.get("http://localhost:8080/response",{params:{id:1,name:"name",age:11, date:1231}})
+			doSomething : function() {
+				
+				this.axios.post("http://localhost:8080/response",{params:{id:1,name:"name",age:11, date:1231}})
+				.then(function(res){
+					res = res.data;
+					this.url = res.url;
+				}.bind(this)).catch(function(err){
+// 					console.log(err)
+				})
+			},
+			classObject : function() {
+				return{
+					active: !this.boo, 
+				}
+			}
+			
+
+		},
+		mounted(){
+			this.axios.get("http://localhost:8080/init").then(function(res){
+				this.array = res.data.object
+			}.bind(this)).catch(function(err){
+				
+			})
+		},
+		watch:{
+			//element listener
+			site:function(val){
+				alert(val);
+			}
+		}
+	})
+	//watch listner
+	vm.$watch('site',function(nval,oval){
+		alert(oval + "become" + nval);
+	})
+</script>
 </html>

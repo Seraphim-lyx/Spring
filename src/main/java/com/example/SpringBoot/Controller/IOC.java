@@ -21,9 +21,15 @@ public class IOC implements IOCInterface{
 	
 	private Integer test = 1;
 	public void test() {
-		
-			LoggerFactory.getLogger(this.getClass()).info(Thread.currentThread().getName());
-		
+			while(true) {
+				LoggerFactory.getLogger(this.getClass()).info(Thread.currentThread().getName());
+				try {
+					Thread.currentThread().sleep(3000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
 
 	}
 
