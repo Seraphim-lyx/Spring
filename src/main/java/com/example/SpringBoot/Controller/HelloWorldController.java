@@ -38,10 +38,11 @@ public class HelloWorldController {
 	
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
 	
-	
 	@RequestMapping(value = "/student", method = RequestMethod.POST)
 	public Map<String, String> setStudent(@RequestBody Student student){
+		
 		Map<String,String> map = new HashMap();
+		
 		return map;
 	}
 	
