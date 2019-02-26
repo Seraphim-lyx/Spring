@@ -8,18 +8,16 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.example.SpringBoot.DAO.Student;
 
@@ -27,7 +25,7 @@ import com.example.SpringBoot.DAO.Student;
  * @author searphimlyx
  *
  */
-@Controller
+@RestController
 public class HelloWorldController {
 	@Autowired
 	@Qualifier("IOC")
@@ -36,7 +34,7 @@ public class HelloWorldController {
 	@Value("#{'${test}'.bytes}")
 	private String test;
 	
-	private Logger logger = LoggerFactory.getLogger(this.getClass());
+//	private Logger logger = LoggerFactory.getLogger(this.getClass());
 	
 	
 	@RequestMapping(value = "/student", method = RequestMethod.POST)
@@ -82,5 +80,12 @@ public class HelloWorldController {
 //		ioc.test();
 //		ioc.test();
 		return "/view/NewFile";
+	}
+	
+	@PostMapping("/test")
+	public String test(@RequestBody Map<String, Object> data) {
+		System.out.println("etst");
+		System.out.println(data.get("value1").toString());
+		return "tds";
 	}
 }

@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
  *
  */
 //@Aspect
-@Configuration
+//@Configuration
 public class AOPConfig {
 	
 	@Pointcut("execution(* com.example.SpringBoot.Controller.*.*(..))")
